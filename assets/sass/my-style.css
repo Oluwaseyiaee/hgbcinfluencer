@@ -1,0 +1,39 @@
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.4;
+}
+
+.carousel-caption {
+  bottom: 150px;
+  text-align: left;
+  width: 700px;
+}
+
+.carousel-caption h1 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.carousel-caption p {
+  margin-bottom: 15px;
+}
+
+.carousel-caption a {
+  font-weight: 600;
+}
