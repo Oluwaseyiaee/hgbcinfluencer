@@ -571,22 +571,22 @@ include('template/header.php');
             <h2>We would Love to hear from you.</h2>
           </div>
           <div class="contact__two-form">
-            <form action="#">
+            <form action="template/send-email.php" method="post">
               <div class="row gy-4 mb-4">
                 <div class="col-md-6">
-                  <input type="text" placeholder="Your Name" class="form-control" />
+                  <input type="text" placeholder="Your Name" name="name" id="name" class="form-control" />
                 </div>
                 <div class="col-md-6">
-                  <input type="email" placeholder="Your E-mail" class="form-control" />
+                  <input type="email" placeholder="Your E-mail" name="email" id="email" class="form-control" />
                 </div>
                 <div class="col-md-6">
-                  <input type="tel" placeholder="Phone Number" class="form-control" />
+                  <input type="tel" placeholder="Phone Number" name="phonenumber" id="phonenumber" class="form-control" />
                 </div>
                 <div class="col-md-6">
-                  <input type="text" placeholder="Subject" class="form-control" />
+                  <input type="text" placeholder="Subject" name="subject" id="subject" class="form-control" />
                 </div>
               </div>
-              <textarea placeholder="Your Message" class="form-control mb-4"></textarea>
+              <textarea placeholder="Your Message" anme="messsage" id="messsage" class="form-control mb-4"></textarea>
               <button type="submit" class="btn-one">Submit Now</button>
             </form>
           </div>
