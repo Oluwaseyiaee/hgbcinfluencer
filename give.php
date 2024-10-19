@@ -53,6 +53,13 @@ include('template/header.php');
   .account-info_item {
     margin-bottom: 25px;
   }
+
+  @media (max-width: 991px) {
+
+    .account-info {
+      margin-top: 40px;
+    }
+  }
 </style>
 
 <div class="section-padding">
@@ -60,10 +67,10 @@ include('template/header.php');
 
     <div class="row rounded shadow-lg p-5 mb-4">
       <div class="col-md-8">
-        <p class="mb-25 title">
+        <span class="title">
           Church Building <span style="font-weight: bold">Project</span>
-        </p>
-        <p>
+        </span>
+        <p class="mt-3">
           We are on a transformative journey with the Church Building
           Project. More than just bricks and mortar, this is a reflection of
           our deepening faith and dedication. We dream of a sanctuary for
@@ -98,10 +105,10 @@ include('template/header.php');
 
     <div class="row rounded shadow-lg p-5 mb-4">
       <div class="col-md-8">
-        <p class="mb-25 title">
+        <span class="mb-25 title">
           Give <span style="font-weight: bold">Offering and Tithe</span>
-        </p>
-        <p>
+        </span>
+        <p class="mt-3">
           Giving is more than a simple act; it is a powerful expression of
           love and a demonstration of faith. Your generosity serves as the
           lifeblood of our various ministries, allowing us to extend our

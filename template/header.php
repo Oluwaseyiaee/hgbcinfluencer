@@ -36,9 +36,9 @@
 
 <body>
   <!-- Preloader Start -->
-  <!-- <div class="loader">
+  <div class="loader">
     <span class="loader-container"></span>
-  </div> -->
+  </div>
   <!-- Preloader End -->
 
   <!-- Header Area Start -->

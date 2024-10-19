@@ -2,6 +2,7 @@
 $title = "Home | Higher Ground Baptist Church";
 include('template/header.php');
 ?>
+
 <!-- Hero Section Start -->
 <div class="hero-slider">
   <div class="hero-slides">
