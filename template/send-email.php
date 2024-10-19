@@ -1,12 +1,16 @@
 <?php
 
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phonenumber = $_POST['phonenumber'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-require "vendor/autoload.php";
+require "../vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -17,14 +21,17 @@ $mail = new PHPMailer(true);
 try {
     //Server settings
     $mail->isSMTP();
-    $mail->SMTPAuth = true;
     $mail->Host = "smtp.gmail.com";
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    //$mail->Port = 587;
+    //  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;  // Use SSL encryption
+    $mail->Port = 465;                                // SSL uses port 465
+
 
     // Authentication
-    $mail->Username = "oluwaseyiae@gmail.com";
-    $mail->Password = "GEORGIA20"; // Use the app password here
+    $mail->Username = "hgbcworkforce@gmail.com";
+    $mail->Password = "zunmdeuxadupylvq"; // Use the app password here
 
     // Recipients
     $mail->setFrom($email, $name);
@@ -36,7 +43,9 @@ try {
 
     // Send email
     $mail->send();
-    echo "Email sent successfully";
+    // If the email is sent successfully
+    echo "<script>alert('Message sent successfully!'); window.location.href = 'your-form-page.php';</script>";
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    // If there is an error
+    echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}'); window.location.href = 'your-form-page.php';</script>";
 }

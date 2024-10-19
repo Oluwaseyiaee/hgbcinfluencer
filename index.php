@@ -586,9 +586,11 @@ include('template/header.php');
                   <input type="text" placeholder="Subject" name="subject" id="subject" class="form-control" />
                 </div>
               </div>
-              <textarea placeholder="Your Message" anme="messsage" id="messsage" class="form-control mb-4"></textarea>
+              <!-- Fixed the name and id attributes here -->
+              <textarea placeholder="Your Message" name="message" id="message" class="form-control mb-4"></textarea>
               <button type="submit" class="btn-one">Submit Now</button>
             </form>
+
           </div>
         </div>
       </div>
