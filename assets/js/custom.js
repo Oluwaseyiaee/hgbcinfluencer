@@ -643,11 +643,11 @@ document.querySelectorAll('.listen-audio').forEach(icon => {
 });
 
 // Stop audio when modal is closed
-document.getElementById('sermonModal').addEventListener('hidden.bs.modal', function () {
-    const audioElement = document.getElementById('sermonAudio');
-    audioElement.pause(); // Pause the audio
-    audioElement.currentTime = 0; // Reset to the beginning
-});
+// document.getElementById('sermonModal').addEventListener('hidden.bs.modal', function () {
+//     const audioElement = document.getElementById('sermonAudio');
+//     audioElement.pause(); // Pause the audio
+//     audioElement.currentTime = 0; // Reset to the beginning
+// });
 
 
 

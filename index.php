@@ -289,7 +289,7 @@ include('template/header.php');
   <div class="container custom__container">
     <div class="year_theme" data-aos="fade-up" data-aos-duration="1000">
       <div class="year_theme_left">
-        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-bullhorn"></i>
       </div>
       <div class="year_theme_right">
         <h1>2024, Amazing Light</h1>
