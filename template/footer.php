@@ -103,7 +103,7 @@
            <div class="footer__two-widget-solution">
              <ul>
                <li><a href="404.html"><i class="far fa-chevron-double-right"></i> About Us</a></li>
-               <li><a href="404.html"><i class="far fa-chevron-double-right"></i> Watch Live</a></li>
+               <li><a href="live.php"><i class="far fa-chevron-double-right"></i> Watch Live</a></li>
                <li><a href="404.html"><i class="far fa-chevron-double-right"></i> The Builders Academy</a></li>
                <li><a href="sermon.php"><i class="far fa-chevron-double-right"></i> Sermon</a></li>
                <li><a href="404.html"><i class="far fa-chevron-double-right"></i> Special Events</a></li>

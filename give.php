@@ -3,8 +3,15 @@ $title = "Give | Higher Ground Baptist Church";
 include('template/header.php');
 ?>
 <!-- Banner Area Start -->
+<style>
+  .giving_background {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/bg/giving-banner.png');
+    height: 50vh;
+    background-size: cover;
+  }
+</style>
 
-<div class="page__banner">
+<div class="giving_background">
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-xl-6 col-lg-7">

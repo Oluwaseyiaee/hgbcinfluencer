@@ -3,8 +3,16 @@ $title = "Sermon | Higher Ground Baptist Church";
 include('template/header.php');
 ?>
 <!-- Banner Area Start -->
+<style>
+  .sermon_background {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/bg/sermon-banner.png');
+    height: 50vh;
+    background-size: cover;
+  }
+</style>
 
-<div class="page__banner">
+
+<div class="sermon_background">
   <div class="container">
     <div class="row justify-content-between align-items-center">
       <div class="col-xl-6 col-lg-7">
@@ -62,6 +70,44 @@ include('template/header.php');
 
       <!-- Month of October -->
       <!-- 1-6 -->
+      <div class="col-xl-4 col-lg-6 item">
+        <div class="blog__one-single-blog">
+          <div class="blog__one-single-blog-image">
+            <img src="assets/img/sermon/image-7.jpg" alt="image" />
+          </div>
+          <div class="blog__one-single-blog-date">
+            <span class="date">20</span>
+            <span class="month">OCT</span>
+          </div>
+          <div class="blog__one-single-blog-content">
+            <div class="blog__one-single-blog-content-top">
+              <span>Categories: <bold>Lifestyle</bold></span>
+            </div>
+            <audio class="hidden-audio d-none">
+              <source src="/assets/sermon_upload/oct/" type="audio/mpeg" />
+            </audio>
+            <a href="#" class="blog-heading audio-title listen-audio">Gates of Light</a>
+            <div class="blog__one-single-blog-content-top-icon">
+              <span>
+                <i data-bs-toggle="tooltip" data-bs-placement="top" title="Listen"
+                  data-bs-custom-class="custom-tooltip" class="fas fa-headphones-alt listen-audio"
+                  data-sermon-description="<h5>Overview</h5><p>This sermon covers the basics of one-on-one discipleship.</p><h6>Key Points:</h6><ul><li>Building relationships</li><li>Encouraging growth</li><li>Practicing accountability</li></ul>"></i>
+              </span>
+              <span>
+                <i data-bs-toggle="tooltip" data-bs-placement="top" title="Download"
+                  data-bs-custom-class="custom-tooltip" class="fas fa-cloud-download-alt download-audio"
+                  data-audio-link="assets/audio/sample-audio.mp3"></i>
+              </span>
+              <span>
+                <i data-bs-toggle="tooltip" data-bs-placement="top" title="Share"
+                  data-bs-custom-class="custom-tooltip" class="fas fa-share share-audio"
+                  data-audio-link="assets/audio/sample-audio.mp3"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-xl-4 col-lg-6 item">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">

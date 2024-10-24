@@ -57,7 +57,7 @@
                 <a href="/404.html">Who we are</a>
               </li>
               <li class="menu-item-has-children">
-                <a href="/404.html">Watch Live</a>
+                <a href="/live.php">Watch Live</a>
               </li>
 
               <li class="menu-item-has-children">

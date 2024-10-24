@@ -12,7 +12,7 @@ include('template/header.php');
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
               ),
-              url('assets/img/bg/showcase.jpg');
+              url('assets/img/bg/showcase.png');
           ">
       <div class="hero-content-box">
         <h1>HGBC <br />Influencers</h1>
@@ -695,6 +695,17 @@ include('template/header.php');
               location. Come experience the warmth and connection of our
               church at either location.
             </p>
+
+
+            <div class="other__campus-widget-social">
+              <ul class="d-flex">
+                <li><a href="https://www.facebook.com/tehillahnation/" target="_blank"><i
+                      class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://x.com/TehillahNation" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/tehillahnation/" target="_blank"><i
+                      class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
