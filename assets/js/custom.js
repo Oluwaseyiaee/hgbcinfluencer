@@ -577,6 +577,36 @@ document.querySelectorAll('.download-audio').forEach(icon => {
 });
 
 
+// For Hosted website use
+
+// document.querySelectorAll('.share-audio').forEach(icon => {
+//     icon.addEventListener('click', function () {
+//         const audioLink = this.getAttribute('data-audio-link'); // Get the audio file path from the data attribute
+//         const fullUrl = window.location.origin + '/' + audioLink; // Combine the origin with the file path to generate the full URL
+        
+//         // Copy the full URL to the clipboard
+//         navigator.clipboard.writeText(fullUrl).then(() => {
+//             // Create a notification element
+//             const notification = document.createElement('div');
+//             notification.classList.add('notification');
+//             notification.innerText = 'Sermon link copied to clipboard!';
+            
+//             // Append the notification to the body (or any other container)
+//             document.body.appendChild(notification);
+            
+//             // Set a timeout to remove the notification after 5 seconds (5000ms)
+//             setTimeout(() => {
+//                 document.body.removeChild(notification);
+//             }, 5000); // You can adjust this to 7000 for 7 seconds
+//         });
+//     });
+// });
+
+
+
+
+// For Local use
+
 document.querySelectorAll('.share-audio').forEach(icon => {
     icon.addEventListener('click', function () {
         const audioLink = this.getAttribute('data-audio-link'); // Get the audio link from the data attribute
