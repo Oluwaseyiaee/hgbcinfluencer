@@ -5935,7 +5935,7 @@ p {
   align-items: center;
   margin-bottom: 60px;
 }
-
+/* 
 .contact__two-contact-info {
   display: flex;
   flex-wrap: wrap;
@@ -5963,7 +5963,7 @@ p {
   width: 43%;
   margin-right: 28px;
   margin-bottom: 28px;
-}
+} */
 .contact__two-single-item-icon {
   margin: auto;
   text-align: center;
@@ -8245,6 +8245,37 @@ p {
   background-color: var(--primary-color-1);
   color: white;
   pointer-events: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .blog__details-pagination {
+    justify-content: center;  /* Center the entire pagination on smaller screens */
+  }
+
+  .blog__details-pagination-prev .blog__details-pagination-text,
+  .blog__details-pagination-next .blog__details-pagination-text {
+    display: none;            /* Hide the text on smaller screens */
+  }
+
+  .blog__details-pagination-prev .pagination-btn,
+  .blog__details-pagination-next .pagination-btn {
+    margin: 0;               /* Remove side margins */
+    width: 40px;             /* Slightly smaller width for icons */
+    height: 40px;            /* Slightly smaller height for icons */
+    line-height: 40px;       /* Center icon vertically */
+    font-size: 16px;         /* Adjust font size if needed */
+  }
+
+  .pagination-numbers {
+    flex-wrap: wrap;         /* Allow pagination numbers to wrap */
+    justify-content: center;  /* Center align pagination numbers */
+  }
+
+  .pagination-link {
+    font-size: 14px;         /* Smaller pagination link font size */
+    padding: 8px 10px;       /* Adjust padding for smaller screens */
+  }
 }
 
 @media (max-width: 991px) {

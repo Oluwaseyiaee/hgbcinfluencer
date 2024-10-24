@@ -561,6 +561,31 @@ document.querySelectorAll('.download-link').forEach(link => {
 
 
 
+
+/// ============================ Search for Sermon by name ===================================///
+// Get the search input field and the audio items
+const searchInput = document.getElementById('search-audio');
+const audioItems = document.querySelectorAll('.item');
+
+// Add event listener for input changes
+searchInput.addEventListener('input', function() {
+    const query = searchInput.value.toLowerCase(); // Get the user's search query in lowercase
+    
+    // Loop through each audio item to check if it matches the search query
+    audioItems.forEach(item => {
+        const audioTitle = item.getAttribute('data-audio-title').toLowerCase(); // Get the audio title in lowercase
+        
+        if (audioTitle.includes(query)) {
+            item.style.display = ''; // Show the item if it matches the query
+        } else {
+            item.style.display = 'none'; // Hide the item if it doesn't match the query
+        }
+    });
+});
+
+
+
+
 ///=========================== Download Sermon, Share link & Listen ======================\\\
 
 document.querySelectorAll('.download-audio').forEach(icon => {
@@ -679,32 +704,6 @@ document.querySelectorAll('.listen-audio').forEach(icon => {
 //     audioElement.currentTime = 0; // Reset to the beginning
 // });
 
-
-
-///==============================Search sermon by name ====================\\\
-// Select the search input and listen for input events
-document.getElementById('audioSearch').addEventListener('input', function() {
-    // Get the search query, converting it to lowercase for case-insensitive comparison
-    const query = this.value.toLowerCase();
-    
-    // Select all elements with the class 'audio-title'
-    const audioTitles = document.querySelectorAll('.audio-title');
-
-    // Loop through each audio title and check if it matches the query
-    audioTitles.forEach(function(title) {
-        // Get the text content of the title and convert it to lowercase
-        const audioName = title.textContent.toLowerCase();
-        
-        // Check if the audio name includes the search query
-        if (audioName.includes(query)) {
-            // If it matches, show the audio item (parent .item element)
-            title.closest('.item').style.display = '';
-        } else {
-            // If it doesn't match, hide the audio item
-            title.closest('.item').style.display = 'none';
-        }
-    });
-});
 
 
 })(jQuery);

@@ -9,6 +9,25 @@ include('template/header.php');
     height: 50vh;
     background-size: cover;
   }
+
+  @media (max-width: 1024px) {
+
+    /* Adjust the breakpoint as needed */
+    .sermon_background {
+      height: 30vh;
+      /* Reduce height for smaller devices */
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    /* Adjust the breakpoint as needed */
+    .sermon_background {
+      height: 30vh;
+      /* Reduce height for smaller devices */
+    }
+
+  }
 </style>
 
 
@@ -57,7 +76,7 @@ include('template/header.php');
         <div class="sidebar-item-single sidebar-search">
           <h3>Search Sermon</h3>
           <form action="#">
-            <input type="text" placeholder="Search sermon..." id="audioSearch" />
+            <input type="text" placeholder="Search sermon..." id="search-audio" />
             <button type="submit">
               <i class="fas fa-search"></i>
             </button>
@@ -66,11 +85,11 @@ include('template/header.php');
       </div>
     </div>
 
-    <div id="sermon-page_parent-div" class="row justify-content-center gy-5 sermon-page_parent-div">
+    <div id="sermon-page_parent-div" class="row justify-content-center gy-5 sermon-page_parent-div audios-list">
 
       <!-- Month of October -->
       <!-- 1-6 -->
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Gates of Light">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-7.jpg" alt="image" />
@@ -108,7 +127,7 @@ include('template/header.php');
         </div>
       </div>
 
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Helped by God">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-7.jpg" alt="image" />
@@ -146,7 +165,7 @@ include('template/header.php');
         </div>
       </div>
 
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Month of Lasting Joy">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-4.jpg" alt="image" />
@@ -185,7 +204,7 @@ include('template/header.php');
       </div>
 
       <!-- Month of September -->
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Beauty and Hounor">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-1.jpg" alt="image" />
@@ -224,7 +243,7 @@ include('template/header.php');
       </div>
 
 
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Things That Attract Beauty and Honour">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-1.jpg" alt="image" />
@@ -263,7 +282,7 @@ include('template/header.php');
       </div>
 
 
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Faith for Rest(II)">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-1.jpg" alt="image" />
@@ -300,7 +319,7 @@ include('template/header.php');
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Faith for Rest(I)">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-1.jpg" alt="image" />
@@ -338,7 +357,7 @@ include('template/header.php');
       </div>
 
       <!-- 7-12 -->
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Secret to a Fruitful Ministry">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-2.jpg" alt="image" />
@@ -374,7 +393,7 @@ include('template/header.php');
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Month of Beauty and Honour">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-3.jpg" alt="image" />
@@ -412,7 +431,7 @@ include('template/header.php');
       </div>
 
       <!-- Month of August -->
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Effective Evangelism">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-5.jpg" alt="image" />
@@ -448,7 +467,7 @@ include('template/header.php');
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-lg-6 item">
+      <div class="col-xl-4 col-lg-6 item" data-audio-title="Divinity">
         <div class="blog__one-single-blog">
           <div class="blog__one-single-blog-image">
             <img src="assets/img/sermon/image-6.jpg" alt="image" />
@@ -484,198 +503,49 @@ include('template/header.php');
           </div>
         </div>
       </div>
-      <div class="blog__one-single-blog">
-        <div class="blog__one-single-blog-image">
-          <img src="assets/img/sermon/image-1.jpg" alt="image" />
-        </div>
-        <div class="blog__one-single-blog-date">
-          <span class="date">09</span>
-          <span class="month">Mar</span>
-        </div>
-        <div class="blog__one-single-blog-content">
-          <div class="blog__one-single-blog-content-top">
-            <span>Categories: <bold>Discipleship, Growth</bold></span>
-          </div>
-          <audio class="hidden-audio d-none">
-            <source
-              src="assets/audio/sample-audio.mp3"
-              type="audio/mpeg" />
-          </audio>
-          <a href="#" class="blog-heading">One on One (Part 1)</a>
-          <div class="blog__one-single-blog-content-top-icon">
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Listen"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-headphones-alt listen-audio"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Download"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-cloud-download-alt download-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Share"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-share share-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="col-xl-4 col-lg-6 item">
-      <div class="blog__one-single-blog">
-        <div class="blog__one-single-blog-image">
-          <img src="assets/img/sermon/image-2.jpg" alt="image" />
-        </div>
-        <div class="blog__one-single-blog-date">
-          <span class="date">09</span>
-          <span class="month">Mar</span>
-        </div>
-        <div class="blog__one-single-blog-content">
-          <div class="blog__one-single-blog-content-top">
-            <span>Categories: <bold>Discipleship, Growth</bold></span>
-          </div>
-          <audio class="hidden-audio d-none">
-            <source
-              src="assets/audio/sample-audio.mp3"
-              type="audio/mpeg" />
-          </audio>
-          <a href="#" class="blog-heading">One on One (Part 1)</a>
-          <div class="blog__one-single-blog-content-top-icon">
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Listen"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-headphones-alt listen-audio"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Download"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-cloud-download-alt download-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Share"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-share share-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-xl-4 col-lg-6 item">
-      <div class="blog__one-single-blog">
-        <div class="blog__one-single-blog-image">
-          <img src="assets/img/sermon/image-3.jpg" alt="image" />
-        </div>
-        <div class="blog__one-single-blog-date">
-          <span class="date">09</span>
-          <span class="month">Mar</span>
-        </div>
-        <div class="blog__one-single-blog-content">
-          <div class="blog__one-single-blog-content-top">
-            <span>Categories: <bold>Discipleship, Growth</bold></span>
-          </div>
-          <audio class="hidden-audio d-none">
-            <source
-              src="assets/audio/sample-audio.mp3"
-              type="audio/mpeg" />
-          </audio>
-          <a href="#" class="blog-heading">One on One (Part 1)</a>
-          <div class="blog__one-single-blog-content-top-icon">
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Listen"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-headphones-alt listen-audio"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Download"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-cloud-download-alt download-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-            <span>
-              <i
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Share"
-                data-bs-custom-class="custom-tooltip"
-                class="fas fa-share share-audio"
-                data-audio-link="assets/audio/sample-audio.mp3"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  </div>
 
-  <style>
-    .notification {
-      position: fixed;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: var(--primary-color-1);
-      /* Success green color */
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      z-index: 1000;
-      opacity: 0.9;
-      font-size: 16px;
-      text-align: center;
-    }
-  </style>
-  <!-- Pagination -->
-  <div class="blog__details-pagination">
-    <div class="blog__details-pagination-btn blog__details-pagination-prev">
-      <a href="#" id="pagination-btn_left" class="pagination-btn">
-        <i class="fas fa-arrow-left"></i>
-      </a>
-      <div class="blog__details-pagination-text">
-        <span>Previous page</span>
+    <style>
+      .notification {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--primary-color-1);
+        /* Success green color */
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        opacity: 0.9;
+        font-size: 16px;
+        text-align: center;
+      }
+    </style>
+    <!-- Pagination -->
+    <div class="blog__details-pagination">
+      <div class="blog__details-pagination-btn blog__details-pagination-prev">
+        <a href="#" id="pagination-btn_left" class="pagination-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <div class="blog__details-pagination-text">
+          <span>Previous page</span>
+        </div>
       </div>
-    </div>
-    <div id="pagination-links" class="pagination-numbers">
-      <!--Dynamically generate page number  -->
-    </div>
-    <div class="blog__details-pagination-btn blog__details-pagination-next">
-      <div class="blog__details-pagination-text">
-        <span>Next page</span>
+      <div id="pagination-links" class="pagination-numbers">
+        <!--Dynamically generate page number  -->
       </div>
-      <a href="#" id="pagination-btn_right" class="pagination-btn">
-        <i class="fas fa-arrow-right"></i>
-      </a>
+      <div class="blog__details-pagination-btn blog__details-pagination-next">
+        <div class="blog__details-pagination-text">
+          <span>Next page</span>
+        </div>
+        <a href="#" id="pagination-btn_right" class="pagination-btn">
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
     </div>
   </div>
-</div>
 </div>
 <script>
   var tooltipTriggerList = [].slice.call(
