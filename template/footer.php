@@ -102,13 +102,13 @@
            <h4 class="text-white mb-3">Quick Link</h4>
            <div class="footer__two-widget-solution">
              <ul>
-               <li><a href="404.html"><i class="far fa-chevron-double-right"></i> About Us</a></li>
-               <li><a href="live.php"><i class="far fa-chevron-double-right"></i> Watch Live</a></li>
-               <li><a href="404.html"><i class="far fa-chevron-double-right"></i> The Builders Academy</a></li>
-               <li><a href="sermon.php"><i class="far fa-chevron-double-right"></i> Sermon</a></li>
-               <li><a href="404.html"><i class="far fa-chevron-double-right"></i> Special Events</a></li>
-               <li><a href="404.html"><i class="far fa-chevron-double-right"></i> About PSAM</a></li>
-               <li><a href="give.php"><i class="far fa-chevron-double-right"></i> Give</a></li>
+               <li><a href="/about.php"><i class="far fa-chevron-double-right"></i> Who we are</a></li>
+               <li><a href="/live.php"><i class="far fa-chevron-double-right"></i> Watch Live</a></li>
+               <li><a href="/404.html"><i class="far fa-chevron-double-right"></i> The Builders Academy</a></li>
+               <li><a href="/sermon.php"><i class="far fa-chevron-double-right"></i> Sermon</a></li>
+               <li><a href="/special-events.php"><i class="far fa-chevron-double-right"></i> Special Events</a></li>
+               <li><a href="/404.html"><i class="far fa-chevron-double-right"></i> About PSAM</a></li>
+               <li><a href="/give.php"><i class="far fa-chevron-double-right"></i> Give</a></li>
              </ul>
            </div>
          </div>

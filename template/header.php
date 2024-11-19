@@ -54,7 +54,7 @@
           <div class="header__area-menubar-center-menu menu-responsive">
             <ul id="mobilemenu">
               <li class="menu-item-has-children">
-                <a href="/404.html">Who we are</a>
+                <a href="/about.php">Who we are</a>
               </li>
               <li class="menu-item-has-children">
                 <a href="/live.php">Watch Live</a>
@@ -73,7 +73,7 @@
                 <a href="/sermon.php">Sermon</a>
               </li>
               <li class="menu-item-has-children">
-                <a href="/404.html">Special Events</a>
+                <a href="/special-events.php">Special Events</a>
               </li>
 
               <li class="menu-item-has-children">
