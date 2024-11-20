@@ -16,7 +16,7 @@ include('template/header.php');
                         Church</h3>
                     <span><a href="home.html">Home</a>
                         <span>|</span>
-                        About us
+                        Who We Are
                     </span>
                 </div>
             </div>
@@ -159,16 +159,20 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="https://web.facebook.com/samsonayangoke" target="_blank"
+                                    class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="https://twitter.com/samsonayangoke_" target="_blank"
+                                    class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="https://www.linkedin.com/in/samsonayangoke?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2moKjTtPRHWPDMTLUgdp3Q%3D%3D"
+                                    target="_blank" class="inner-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="https://www.instagram.com/samsonayangoke/?hl=en" target="_blank"
+                                    class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -186,16 +190,16 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -217,16 +221,16 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -244,16 +248,16 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="https://web.facebook.com/felicien.ngirnyu.3" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -264,6 +268,30 @@ include('template/header.php');
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="team__two-team-item">
                     <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <div class="team__two-team-item-content">
+                        <div class="member-name">
+                            <h3>Ayanfe Fakunle</h3>
+                            <span>Associate Pastor</span>
+                        </div>
+                        <div class="fas fa-share-alt share-link-wrapper">
+                            <div class="share-links">
+                                <a href="https://web.facebook.com/fakunle.ayanfesamuel/?locale=fr_CA&_rdc=1&_rdr#" target="_blank" class="inner-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ayanfe?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bihzocj9ZTVmWNTHx0fTKyQ%3D%3D" target="_blank" class="inner-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/oluwasegunfunmi_amusan/" target="_blank" class="inner-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="team__two-team-item">
+                    <img src="assets/img/pastors/pastor-5.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Michael Oluwasegun Amusan</h3>
@@ -271,16 +299,13 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="https://web.facebook.com/amusan.oluwamicheal" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
+                                <a href="https://x.com/AmusanMicheal?t=BAkrnAFMPEUPkxM4Hin6mw&s=08" target="_blank" class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" class="inner-link">
+                                <a href="https://www.instagram.com/oluwasegunfunmi_amusan/" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -290,7 +315,7 @@ include('template/header.php');
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="team__two-team-item">
-                    <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <img src="assets/img/pastors/pastor-6.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Stephen Taiwo Bamigbola</h3>
@@ -298,16 +323,10 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="https://web.facebook.com/bamigbola.stephenkingdomstar" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" class="inner-link">
+                                <a href="#https://www.instagram.com/kingdomstar_/" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -317,7 +336,7 @@ include('template/header.php');
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="team__two-team-item">
-                    <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <img src="assets/img/pastors/pastor-7.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Tanko Shekwa'aga</h3>
@@ -325,17 +344,8 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" class="inner-link">
+                                <a href="https://web.facebook.com/tanko.shekwaaga" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" class="inner-link">
-                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                         </div>
