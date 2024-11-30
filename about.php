@@ -151,7 +151,7 @@ include('template/header.php');
         <div class="row gy-4 justify-content-center mb-5">
             <div class="col-xl-5 col-lg-5 col-md-6">
                 <div class="team__two-team-item">
-                    <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <img src="assets/img/pastors/pastor-1.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Samson Oluwaseun Ayangoke</h3>
@@ -182,7 +182,7 @@ include('template/header.php');
             </div>
             <div class="col-xl-5 col-lg-5 col-md-6">
                 <div class="team__two-team-item">
-                    <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <img src="assets/img/pastors/pastor-2.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Victory Tolulope Ayangoke</h3>
@@ -190,16 +190,13 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" target="_blank" class="inner-link">
+                                <a href="https://web.facebook.com/victoryayangoke" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" target="_blank" class="inner-link">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" target="_blank" class="inner-link">
+                                <a href="https://www.linkedin.com/in/victoryayangoke?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkDLOOmwcSN%2B4IqT1z9ExBA%3D%3D" target="_blank" class="inner-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" target="_blank" class="inner-link">
+                                <a href="https://www.instagram.com/victoryayangoke/" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -213,7 +210,7 @@ include('template/header.php');
         <div class="row gy-4 justify-content-center">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="team__two-team-item">
-                    <img src="assets/img/pastors/image-1.jpeg" alt="image">
+                    <img src="assets/img/pastors/pastor-3.png" alt="image">
                     <div class="team__two-team-item-content">
                         <div class="member-name">
                             <h3>Rev'd John Adeyi</h3>
@@ -221,17 +218,8 @@ include('template/header.php');
                         </div>
                         <div class="fas fa-share-alt share-link-wrapper">
                             <div class="share-links">
-                                <a href="#" target="_blank" class="inner-link">
+                                <a href="https://web.facebook.com/adeyi.johnabayomi" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" target="_blank" class="inner-link">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" target="_blank" class="inner-link">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="#" target="_blank" class="inner-link">
-                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                         </div>
@@ -251,7 +239,7 @@ include('template/header.php');
                                 <a href="https://web.facebook.com/felicien.ngirnyu.3" target="_blank" class="inner-link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#" target="_blank" class="inner-link">
+                                <!-- <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                                 <a href="#" target="_blank" class="inner-link">
@@ -259,7 +247,7 @@ include('template/header.php');
                                 </a>
                                 <a href="#" target="_blank" class="inner-link">
                                     <i class="fab fa-instagram"></i>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
